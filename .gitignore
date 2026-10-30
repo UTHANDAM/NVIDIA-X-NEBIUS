@@ -1,0 +1,28 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Pytest & Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+.run_cache/
+
+# Sandbox runtime output
+sandbox_runs/
+
+# Environment credentials
+.env
+.env.local
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
